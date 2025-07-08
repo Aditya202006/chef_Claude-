@@ -1,5 +1,5 @@
 import React from "react";
-import { getRecipeFromGemini } from "./getSpoonacularRecipe.js"; // Make sure this file exists
+import { getRecipeFromGemini } from "./getGeminiRecipe.js"; // Make sure this file exists
 
 export default function Main() {
   const [ingredients, setIngredients] = React.useState([]);
